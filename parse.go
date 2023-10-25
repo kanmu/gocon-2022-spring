@@ -23,7 +23,7 @@ type Message struct {
 	// 処理コード: 6桁の数字
 	ProcessingCode uint32
 
-	// 取引金額: 任意の桁の数字
+	// 取引金額: 12桁の数字
 	AmountTransaction uint64
 
 	// 有効期限: YYMM の4桁の数字
